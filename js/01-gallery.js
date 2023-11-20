@@ -49,7 +49,7 @@ function handleClick(event) {
     //Модальне вікно
 
     const instance = basicLightbox.create(`
-      <img src="${originalSRC}"/>
+      <img src="${originalSRC}" width="800" height="600"/>
 
 `)
      instance.show()
